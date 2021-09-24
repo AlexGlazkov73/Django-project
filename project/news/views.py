@@ -6,7 +6,7 @@ class PostList(ListView):
     model = Post
     template_name = 'news.html'
     context_object_name = 'posts'
-    queryset = Post.objects.order_by('-id')
+    queryset = Post.objects.order_by('-time_create')
 
 
 class PostDetail(DetailView):
