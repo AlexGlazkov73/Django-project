@@ -1,2 +1,2 @@
 # Django-project
-Testing project on Django
+Testing project in Django
